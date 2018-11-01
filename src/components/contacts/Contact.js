@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types';
-import { Consumer } from '../context';
-import { __values } from 'tslib';
+import { Consumer } from '../../context';
+import { values } from 'tslib';
 
 class Contact extends Component{
   state = {
